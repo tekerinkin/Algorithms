@@ -7,12 +7,12 @@
 #include <type_traits>
 
 //TODO: Complete merge_sort!! Doesn't sort!
+// TODO: Think about requires & concepts
 
 namespace Sorts
 {
 
     template<typename Arr, typename Comp>
-    requires(std::is_array<Arr>::value)
     void merge(Arr& arr,
                 typename Arr::size_type left,
                 typename Arr::size_type mid,
@@ -59,7 +59,6 @@ namespace Sorts
     }
 
     template<typename Arr, typename Comp>
-    requires(std::is_array<Arr>::value)
     void _merge_sort(Arr& arr, Comp comp)
     {
         for(size_t i = 0; i < arr.size(); i *= 2)
@@ -70,14 +69,12 @@ namespace Sorts
     }
 
     template<typename Arr, typename Comp>
-    requires(std::is_array<Arr>::value)
     void mergeSort(Arr& arr, Comp comp)
     {
         _merge_sort(arr, comp);
     }
 
     template<typename Arr>
-    requires(std::is_array<Arr>::value)
     void mergeSort(Arr& arr)
     {
         using Type = typename Arr::value_type;

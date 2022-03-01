@@ -22,6 +22,8 @@ int main() {
 
    vector<MyClass> v = {{1,2}, {3, 2}, {2, 3}, {2, 2}};
 
+   Sorts::mergeSort(v, comp);
+
 
     for(auto& i : v)
         cout << i.first  << ", " << i.second << "\n";

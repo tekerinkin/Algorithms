@@ -7,4 +7,6 @@ set(MAIN_SRC_LIST main.cpp)
 
 set(SORTS_HEADERS_LIST sorts/sorts.h)
 
-add_executable(algorithms ${MAIN_SRC_LIST} ${SORTS_HEADERS_LIST})
+set(TEST_HEADERS_LIST test/benchmark.h)
+
+add_executable(algorithms ${MAIN_SRC_LIST} ${SORTS_HEADERS_LIST} ${TEST_HEADERS_LIST})

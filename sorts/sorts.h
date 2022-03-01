@@ -10,6 +10,7 @@
 #include "shakerSort.h"
 #include "insertionSort.h"
 #include "selectionSort.h"
+#include "quickSort.h"
 
 
 

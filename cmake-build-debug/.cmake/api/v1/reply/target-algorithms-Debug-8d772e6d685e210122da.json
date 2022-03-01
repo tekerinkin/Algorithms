@@ -38,7 +38,7 @@
 					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk"
 				},
 				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-std=gnu++2a"
 				}
 			],
 			"language" : "CXX",
@@ -48,7 +48,7 @@
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[

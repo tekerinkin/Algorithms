@@ -11,6 +11,7 @@
 #include "insertionSort.h"
 #include "selectionSort.h"
 #include "quickSort.h"
+#include "mergeSort.h"
 
 
 

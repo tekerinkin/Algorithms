@@ -74,7 +74,7 @@ build cmake_object_order_depends_target_algorithms: phony || CMakeFiles/algorith
 
 build CMakeFiles/algorithms.dir/main.cpp.o: CXX_COMPILER__algorithms_Debug /Users/dimashestakov/Desktop/algorithms/main.cpp || cmake_object_order_depends_target_algorithms
   DEP_FILE = CMakeFiles/algorithms.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithms.dir
 
